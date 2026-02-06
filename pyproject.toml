@@ -1,0 +1,11 @@
+[project]
+name = "dbt-parse-regression-example"
+version = "0.1.0"
+description = "Minimal reproducible example of dbt-bigquery parse performance regression between 1.9.1 and 1.9.2"
+requires-python = "==3.11.14"
+dependencies = [
+    "dbt-bigquery>=1.9.1,<1.10",
+]
+
+[dependency-groups]
+dev = []
